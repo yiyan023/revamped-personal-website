@@ -40,6 +40,7 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: var(--p-color);
 }
 
 button {
@@ -62,6 +63,25 @@ button {
 button:hover {
 	transform: translateY(-5px) !important;
 	cursor: pointer;
+}
+
+input {
+	background-color: transparent;
+	padding: 10px;
+	border: none;
+	outline: 1px solid var(--p-color);
+	border-radius: 7.5px;
+	padding-left: 10px;
+	color: var(--p-color);
+}
+
+input::placeholder {
+	color: var(--p-color);
+	opacity: 50%;
+}
+
+h3 {
+	color: var(--p-color);
 }
 
 @media (prefers-color-scheme: light) {

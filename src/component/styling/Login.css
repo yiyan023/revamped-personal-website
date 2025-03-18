@@ -1,0 +1,11 @@
+.login-btn {
+	border-radius: 7.5px;
+	background-color: var(--p-color);
+	padding: 10px;
+}
+
+.login-div {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}

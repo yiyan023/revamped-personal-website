@@ -10,7 +10,9 @@ body {
 	left: 20px;
 	justify-content: space-between;
 	align-items: center;
-	width: calc(100% - 40px);
+	width: calc(100% - 45px);
+	z-index: 10;
+	background-color: var(--bg-color);
 }
 
 .links-div {
