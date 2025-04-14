@@ -43,6 +43,10 @@ h1 {
   color: var(--p-color);
 }
 
+h2 {
+	color: var(--p-color);
+}
+
 button {
 	width: 40px;
 	height: 40px;

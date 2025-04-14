@@ -1,11 +1,13 @@
 import React from 'react'
 import Navbar from './Navbar'
+import ExpList from './experience/ExpList'
+import './styling/Experience.css'
 
 const Experience = () => {
   return (
-	<div>
+	<div className='experience'>
 		<Navbar />
-	  Experience
+	  	<ExpList />
 	</div>
   )
 }

@@ -36,12 +36,14 @@ const Navbar = () => {
 
 	useEffect(() => {
 		const handleResize = () => {
-			if (window.innerWidth < 500) {
+			if (window.innerWidth < 525) {
 				setSmall(true);
 			} else {
 				setSmall(false)
 			}
 		}
+
+		handleResize();
 
 		window.addEventListener('resize', handleResize);
 
@@ -49,10 +51,6 @@ const Navbar = () => {
 			window.removeEventListener('resize', handleResize);
 		};
 	}, [])
-
-	useEffect(() => {
-		localStorage.setItem("small", JSON.stringify(small));
-	}, [small]);
 
 	useEffect(() => {
 		switch(location.pathname) {
